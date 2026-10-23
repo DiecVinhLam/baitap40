@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kết Quả Trắc Nghiệm - Thiết Kế Web</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      color: #333;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    /* Khung chứa các hình ảnh kết quả được mở rộng kích thước */
+    .screenshot-section {
+      width: 100%;
+      max-width: 1100px; /* Tăng chiều rộng tối đa */
+      background: #ffffff;
+      border: 1px solid #dee2e6;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .screenshot-section h2 {
+      font-size: 22px;
+      color: #0d6efd;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #e9ecef;
+      padding-bottom: 12px;
+      text-align: center;
+    }
+
+    /* Sắp xếp hình ảnh dạng cột to rõ */
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+    }
+
+    .image-card {
+      border: 1px solid #ced4da;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .image-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .image-caption {
+      padding: 14px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #495057;
+      background-color: #f8f9fa;
+      border-top: 1px solid #dee2e6;
+      text-align: center;
+    }
+
+    /* Chân trang */
+    footer {
+      font-size: 14px;
+      color: #6c757d;
+      text-align: center;
+      margin-top: auto;
+      padding-top: 15px;
+      border-top: 1px solid #e9ecef;
+      width: 100%;
+      max-width: 1100px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Khu vực hiển thị 2 ảnh kết quả kích thước lớn -->
+  <div class="screenshot-section">
+    <h2>Kết Quả Bài Tập Trắc Nghiệm</h2>
+    
+    <div class="image-container">
+      
+      <div class="image-card">
+        <img src="image/Kqua_C3.png" alt="Kết quả Chương 3">
+        <div class="image-caption">Hình 1: Kết quả trắc nghiệm Chương 3</div>
+      </div>
+
+      <div class="image-card">
+        <img src="image/Kqua_C4.png" alt="Kết quả Chương 4">
+        <div class="image-caption">Hình 2: Kết quả trắc nghiệm Chương 4</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Chân trang -->
+  <footer>
+    © 2026 - Diệc Vĩnh Lâm | 231A010561 - Lớp 261INT440703
+  </footer>
+
+</body>
+</html>
